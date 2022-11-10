@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif; 
+}
+body{
+  background: linear-gradient(to right bottom, #dc9696, #d08281, #c46e6d, #b75959, #aa4545) no-repeat;
+  min-height: 100vh;
+}
+.content{
+  position: relative;
+ 
+
+}
+.watch{
+  position:absolute;
+ top: 250px;
+ left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 400px;
+  height: 80px;
+}
+p{
+  font-size: 30px;
+  color: aliceblue;
+}
+button{
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
